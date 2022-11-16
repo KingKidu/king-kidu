@@ -1,5 +1,11 @@
-/* Description: Custom JS file */
+/* personal JS */
+var blink = document.getElementById("blink");
+setInterval(function () {
+    blink.style.opacity = blink.style.opacity == 0? 1:0;
+}, 600);
 
+
+/* Description: Custom JS file */
 
 (function($) {
     "use strict"; 
